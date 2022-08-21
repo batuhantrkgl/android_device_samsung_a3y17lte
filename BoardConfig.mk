@@ -100,5 +100,8 @@ TW_INCLUDE_FUSE_EXFAT := true
 # NTFS Support
 TW_INCLUDE_FUSE_NTFS := true
 
-# Vendor separation
-TARGET_COPY_OUT_VENDOR := vendor
+# Vendor 
+TARGET_COPY_OUT_VENDOR := vendor 
+#PBRP Flags 
+# PBRP Flags 
+PB_TORCH_PATH := /sys/class/leds/flashlight
